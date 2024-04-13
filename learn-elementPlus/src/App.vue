@@ -21,13 +21,18 @@ const tabsData = [
   // {
   //   label: '标签页',
   //   com: elTabs
-  // }
+  // },
+  {
+    label: '输入框',
+    com: elInput
+  }
 ]
 import elButton from '@/views/elButton.vue'
 import elIcon from '@/views/elIcon.vue'
 import elMessage from '@/views/elMessage.vue'
 import elMenu from '@/views/elMenu.vue'
 // import elTabs from '@/views/elTabs.vue'
+import elInput from '@/views/elInput.vue'
 </script>
 
 <template>
