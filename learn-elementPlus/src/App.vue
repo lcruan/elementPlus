@@ -5,6 +5,7 @@ const tabPosition = ref('left')
 import elButton from '@/views/elButton.vue'
 import elIcon from '@/views/elIcon.vue'
 import elMessage from '@/views/elMessage.vue'
+import elMenu from '@/views/elMenu.vue'
 </script>
 
 <template>
@@ -16,7 +17,7 @@ import elMessage from '@/views/elMessage.vue'
       <elIcon></elIcon>
     </el-tab-pane>
     <el-tab-pane label="消息框"><elMessage/></el-tab-pane>
-    <el-tab-pane label="Task">Task</el-tab-pane>
+    <el-tab-pane label="菜单"><elMenu/></el-tab-pane>
   </el-tabs>
 </template>
 
